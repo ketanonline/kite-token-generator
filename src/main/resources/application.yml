@@ -1,7 +1,22 @@
 micronaut:
   application:
     name: kiteTokenGenerator
+  server:
+    port: 7081
+  http:
+    client:
+      http-version: 2.0
 netty:
   default:
     allocator:
       max-order: 3
+app:
+  kite:
+    apikey: zb1e49df58y743sp
+    apisecret: 59wj4aa57kya9mqijsa9x6vs76huh4ud
+    userid: VHL351
+    userpassword: Krishna$1Billion
+    twofactorpin: 653283
+    chromedriver: ${chromedriverpath}
+    user:
+      accessToken: gKadvwZBjJsRcNUe4ibDELRzUeMxIxvR
