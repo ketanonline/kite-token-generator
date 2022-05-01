@@ -22,7 +22,7 @@ public class InstrumentsMaster {
         this.PK = PK;
     }
 
-    @DynamoDbAttribute("KiteToken")
+    @DynamoDbAttribute("user")
     public String getKiteToken() {
         return kiteToken;
     }

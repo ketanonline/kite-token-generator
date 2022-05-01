@@ -18,5 +18,6 @@ app:
     userpassword: Krishna$1Billion
     twofactorpin: 653283
     chromedriver: ${chromedriverpath}
+#    chromedriver: /Users/ketandhamasana/Downloads/chromedriver
     user:
       accessToken: gKadvwZBjJsRcNUe4ibDELRzUeMxIxvR
